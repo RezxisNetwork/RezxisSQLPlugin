@@ -12,7 +12,7 @@ import net.rezxis.sql.all.config.DatabaseConfig;
 public class BungeeCordDatabaseConfig extends DatabaseConfig {
 
 	public BungeeCordDatabaseConfig(Plugin plugin) throws IOException {
-		Configuration configuration = ConfigurationProvider.getProvider(YamlConfiguration.class).load(new File(plugin.getDataFolder(), "conf/database.conf"));
+		Configuration configuration = ConfigurationProvider.getProvider(YamlConfiguration.class).load(new File(plugin.getDataFolder(), "database.conf"));
 		host = configuration.getString("host");
 		username = configuration.getString("username");
 		password = configuration.getString("password");
