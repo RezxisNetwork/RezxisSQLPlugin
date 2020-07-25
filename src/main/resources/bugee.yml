@@ -1,0 +1,3 @@
+name: RezxisSQLPlugin
+main: net.rezxis.sql.bungee.BungeeCordSQL
+version: 0.1
