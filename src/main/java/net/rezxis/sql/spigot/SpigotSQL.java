@@ -20,6 +20,7 @@ public class SpigotSQL extends JavaPlugin {
 			ex.printStackTrace();
 			return;
 		}
+		Database.setSet(true);
 		BukkitVars.setPlugin(this);
 		RezxisSQL.load(dc);
 	}
