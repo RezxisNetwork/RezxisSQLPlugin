@@ -2,6 +2,7 @@ package net.rezxis.sql.spigot;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+import net.rezxis.database.BukkitVars;
 import net.rezxis.database.Database;
 import net.rezxis.sql.all.RezxisSQL;
 import net.rezxis.sql.all.config.DatabaseConfig;
@@ -19,7 +20,7 @@ public class SpigotSQL extends JavaPlugin {
 			ex.printStackTrace();
 			return;
 		}
-		Database.setPlugin(this);
+		BukkitVars.setPlugin(this);
 		RezxisSQL.load(dc);
 	}
 }
