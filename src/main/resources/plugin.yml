@@ -1,3 +1,3 @@
 name: RezxisSQLPlugin
-main: net.rezxis.sql.spigot.RezxisSQL
+main: net.rezxis.sql.spigot.SpigotSQL
 version: 1.0
