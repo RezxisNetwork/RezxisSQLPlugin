@@ -53,8 +53,8 @@
 	  <scope>provided</scope>
 	</dependency>
 	<dependency>
-	  <groupId>net.rezxis.database</groupId>
-  	  <artifactId>RezxisDatabase</artifactId>
+	  <groupId>net.rezxis.mchosting</groupId>
+  	  <artifactId>Database</artifactId>
   	  <version>0.0.1-SNAPSHOT</version>
 	</dependency>
   </dependencies>

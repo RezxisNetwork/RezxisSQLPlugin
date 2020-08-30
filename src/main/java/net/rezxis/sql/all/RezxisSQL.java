@@ -1,6 +1,6 @@
 package net.rezxis.sql.all;
 
-import net.rezxis.database.Database;
+import net.rezxis.mchosting.database.Database;
 import net.rezxis.sql.all.config.DatabaseConfig;
 
 public class RezxisSQL {
